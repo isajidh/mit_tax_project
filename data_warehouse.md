@@ -1,6 +1,8 @@
+# Summary of Design
+
 The design of the data warehouse for this tax project is focused on analyzing and predicting tax data. A structure will be outlined with logical assumptions to meet the analytics needs. Fact and dimension tables will be created following standard naming conventions, and surrogate keys will be used for efficient data linking and updating.
 
-### Assumptions
+## Assumptions
 
 - **Employee Dimension:** Employee details are tracked.
 - **Remuneration Fact:** All remuneration details are captured for analytics and prediction.
@@ -8,8 +10,6 @@ The design of the data warehouse for this tax project is focused on analyzing an
 - **Hierarchy:** Potential hierarchies, such as Employment Date and Tax Deduction Types, are included for more detailed breakdowns.
 - **Type 1:** Used for dimensions with no history tracking.
 - **Type 2:** Applied to the Employee dimension to capture historical changes in designation or employment dates.
-
-# Summary of Design
 
 ## Measure Columns
 
